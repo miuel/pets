@@ -1,0 +1,27 @@
+/* Formas */
+.boton { 
+	background-color: #ffb400;
+	/*con este padding creo el efecto de boton amarillo rectangular*/
+	padding: 20px;
+	border-bottom: 6px solid #e49100;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 100%;
+	margin-top: 30px;
+	margin-right: 10px;
+	transition: all 200ms linear;
+}
+.boton:hover {
+	background-color: #e49100;
+	border-top: 6px solid #ffb400;
+	border-bottom: 0 none;
+}
+.boton:last-of-type {
+	margin-right: 0;
+}
+.boton_a {
+	color: #FFF;
+	font-weight: 400; 
+	text-transform: uppercase;
+	text-decoration: 0 none;
+}
